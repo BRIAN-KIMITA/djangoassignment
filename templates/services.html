@@ -1,0 +1,293 @@
+
+        {% extends 'base.html' %}
+        {% load static %}
+{% block body %}
+			<!-- Start Hero Section -->
+			<div class="hero">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5">
+							<div class="intro-excerpt">
+								<h1>Services</h1>
+								<p class="mb-4">
+                                        Undertake design project from concept to completion.
+                                        Define project requirements and schedule during the “brief”
+                                        Interpret and translate customer needs into rough plans.
+                                         Set costs and project fees according to budget.
+                                         Research and decide on materials and products sourcing.
+                                </p>
+								<p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#" class="btn btn-white-outline">Explore</a></p>
+							</div>
+						</div>
+						<div class="col-lg-7">
+							<div class="hero-img-wrap">
+								<img src="{% static 'images/couch.png' %}" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- End Hero Section -->
+
+		
+
+	<!-- Start Why Choose Us Section -->
+		<div class="why-choose-section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-6">
+						<h2 class="section-title">Why Choose Us</h2>
+						<p>
+                            Quality: Emphasize the superior quality of your furniture, whether it's due to the materials used, craftsmanship, or attention to detail.
+
+Design and Customization: If you offer unique and customizable designs, it can be a compelling reason for customers to choose your enterprise.
+
+Sustainability: Promote eco-friendly practices and materials, which are increasingly important to environmentally conscious consumers.
+
+Durability: If your furniture is built to last, customers will appreciate the long-term value it offers.
+
+                        </p>
+
+						<div class="row my-5">
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="{% static 'images/truck.svg' %}" alt="Image" class="img-fluid">
+									</div>
+									<h3>Fast &amp; Free Shipping</h3>
+									<p>we offer fast delivery on time for efficiency.</p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="{% static 'images/bag.svg' %}" alt="Image" class="img-fluid">
+									</div>
+									<h3>Easy to Shop</h3>
+									<p>
+                                        Ensure your online store is well-organized, easy to navigate,
+                                        and mobile-responsive for a seamless online shopping experience.
+                                    </p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="{% static 'images/support.svg' %}" alt="Image" class="img-fluid">
+									</div>
+									<h3>24/7 Support</h3>
+									<p>
+                                       means that a business or service is available to
+                                        assist customers or address their needs around the clock, 24 hours a day, 7 days a week. This implies
+                                        that customers can reach out for assistance, inquiries, or support at any time, including during weekends, holidays, and outside regular business hours
+
+                                    </p>
+								</div>
+							</div>
+
+							<div class="col-6 col-md-6">
+								<div class="feature">
+									<div class="icon">
+										<img src="{% static 'images/return.svg' %}" alt="Image" class="img-fluid">
+									</div>
+									<h3>Hassle Free Returns</h3>
+									<p>
+                                        refers to a customer-friendly return process that is designed to be easy, convenient,
+                                        and straightforward for individuals who wish to return a purchased product.
+                                    </p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="img-wrap">
+							<img src="{% static 'images/why-choose-us-img.jpg' %}" alt="Image" class="img-fluid">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Why Choose Us Section -->
+
+	<!-- Start Product Section -->
+		<div class="product-section">
+			<div class="container">
+				<div class="row">
+
+					<!-- Start Column 1 -->
+					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+						<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
+						<p class="mb-4">
+                            revolves around knowledge, skills and experience in relation to material properties,
+                            behaviours and potentials. It is about making or working with materials
+                            as well as the potential for craft practice to foster collaborative communities</p>
+						<p><a href="shop.html" class="btn">Explore</a></p>
+					</div>
+					<!-- End Column 1 -->
+
+					<!-- Start Column 2 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="cart.html">
+							<img src="{% static 'images/product-1.png' %}" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Nordic Chair</h3>
+							<strong class="product-price">ksh 5000.00</strong>
+
+							<span class="icon-cross">
+								<img src="{% static 'images/cross.svg' %}" class="img-fluid">
+							</span>
+						</a>
+					</div>
+					<!-- End Column 2 -->
+
+					<!-- Start Column 3 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="cart.html">
+							<img src="{% static 'images/product-2.png' %}" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Kruzo Aero Chair</h3>
+							<strong class="product-price">ksh 7800.00</strong>
+
+							<span class="icon-cross">
+								<img src="{% static 'images/cross.svg' %}" class="img-fluid">
+							</span>
+						</a>
+					</div>
+					<!-- End Column 3 -->
+
+					<!-- Start Column 4 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+						<a class="product-item" href="cart.html">
+							<img src="{% static 'images/product-3.png' %}" class="img-fluid product-thumbnail">
+							<h3 class="product-title">Ergonomics Chair</h3>
+							<strong class="product-price">ksh 4400.00</strong>
+
+							<span class="icon-cross">
+								<img src="{% static 'images/cross.svg' %}" class="img-fluid">
+							</span>
+						</a>
+					</div>
+					<!-- End Column 4 -->
+
+				</div>
+			</div>
+		</div>
+		<!-- End Product Section -->
+		
+
+		<!-- Start Testimonial Slider -->
+		<div class="testimonial-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 mx-auto text-center">
+						<h2 class="section-title">Testimonials</h2>
+					</div>
+				</div>
+
+				<div class="row justify-content-center">
+					<div class="col-lg-12">
+						<div class="testimonial-slider-wrap text-center">
+
+							<div id="testimonial-nav">
+								<span class="prev" data-controls="prev"><span class="fa fa-chevron-left"></span></span>
+								<span class="next" data-controls="next"><span class="fa fa-chevron-right"></span></span>
+							</div>
+
+							<div class="testimonial-slider">
+
+								<div class="item">
+									<div class="row justify-content-center">
+										<div class="col-lg-8 mx-auto">
+
+											<div class="testimonial-block text-center">
+												<blockquote class="mb-5">
+													<p>
+                                                        "I recently purchased a dining set from Your Furniture Enterprise,
+                                                        and I couldn't be happier.
+                                                        The craftsmanship and quality are outstanding.
+                                                        It has transformed my dining room into an elegant
+                                                        space that my family and I love!"
+
+                                                    </p>
+												</blockquote>
+
+												<div class="author-info">
+													<div class="author-pic">
+														<img src="{% static 'images/manager.jpg' %}" alt="Maria Jones" class="img-fluid">
+													</div>
+													<h3 class="font-weight-bold">Jones Wambua</h3>
+													<span class="position d-block mb-3">CEO, Co-Founder, marine Inc.</span>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<!-- END item -->
+
+								<div class="item">
+									<div class="row justify-content-center">
+										<div class="col-lg-8 mx-auto">
+
+											<div class="testimonial-block text-center">
+												<blockquote class="mb-5">
+													<p>
+                                                        "I've been a loyal customer of [Your Furniture Enterprise] for years. Their furniture never disappoints. The beautiful designs, durability, and attention to detail are top-notch. My home is a testament to their exceptional products."
+                                                    </p>
+												</blockquote>
+
+												<div class="author-info">
+													<div class="author-pic">
+														<img src="{% static 'images/manager2.jpg'%}" alt="Maria Jones" class="img-fluid">
+													</div>
+													<h3 class="font-weight-bold">Stephen Mburu</h3>
+													<span class="position d-block mb-3">CEO, Co-Founder, Co-operative Bank.</span>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<!-- END item -->
+
+								<div class="item">
+									<div class="row justify-content-center">
+										<div class="col-lg-8 mx-auto">
+
+											<div class="testimonial-block text-center">
+												<blockquote class="mb-5">
+													<p>
+                                                        I was looking for a comfortable and stylish sofa, and Your Furniture Enterprise delivered.
+                                                        The sofa is not only aesthetically pleasing, but it's incredibly cozy.
+                                                        I get compliments from every guest who visits.
+                                                    </p>
+												</blockquote>
+
+												<div class="author-info">
+													<div class="author-pic">
+														<img src="{% static 'images/manager3.jpg' %}" alt="Maria Jones" class="img-fluid">
+													</div>
+													<h3 class="font-weight-bold">Kent kronics</h3>
+													<span class="position d-block mb-3">CEO, Co-Founder, Zinc Restaurant</span>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div> 
+								<!-- END item -->
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Testimonial Slider -->
+{% endblock %}
+		
+
